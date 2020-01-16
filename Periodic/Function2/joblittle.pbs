@@ -1,0 +1,12 @@
+#PBS -q little
+#PBS -l select=1:ncpus=1:mem=16gb
+#PBS -l place=pack
+#PBS -N test.fenics
+##PBS -j oe
+#PBS -V
+
+cd $PBS_O_WORKDIR
+
+module load anaconda3/5.2.0
+
+python PeriodicCorrectorLoopP_for_little.py
