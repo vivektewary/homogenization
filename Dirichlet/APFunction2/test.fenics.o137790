@@ -1,0 +1,34 @@
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/ffc/uflacs/analysis/dependencies.py:61: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  active[targets] = 1
+Solving linear variational problem.
+Traceback (most recent call last):
+  File "DirichletCorrectorAP.py", line 29, in <module>
+    solve(a == L, u, bc,solver_parameters={"linear_solver":"mumps"})
+  File "/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/dolfin/fem/solving.py", line 220, in solve
+    _solve_varproblem(*args, **kwargs)
+  File "/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/dolfin/fem/solving.py", line 247, in _solve_varproblem
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to successfully call PETSc function 'KSPSolve'.
+*** Reason:  PETSc error code is: 55 (Out of memory).
+*** Where:   This error was encountered inside /home/conda/feedstock_root/build_artifacts/fenics_1543534334359/work/dolfin/la/PETScKrylovSolver.cpp.
+*** Process: 0
+*** 
+*** DOLFIN version: 2018.1.0
+*** Git changeset:  
+*** -------------------------------------------------------------------------
+
+Application 743418 exit codes: 1
+Application 743418 resources: utime ~482s, stime ~28s, Rss ~43065912, inblocks ~4026, outblocks ~120

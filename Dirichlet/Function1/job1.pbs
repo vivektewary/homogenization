@@ -1,0 +1,12 @@
+#PBS -q devel
+#PBS -l select=1:ncpus=40:vntype=cray_compute
+#PBS -l place=pack
+#PBS -N test.fenics
+#PBS -j oe
+#PBS -V
+
+cd $PBS_O_WORKDIR
+
+module load anaconda3/5.2.0
+
+aprun -n 1 -N 1 -d 40 python DirichletCorrectorLoopP.py

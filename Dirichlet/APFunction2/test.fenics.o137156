@@ -1,0 +1,32 @@
+Solving linear variational problem.
+Solving linear variational problem.
+1.5 40.04481885119829 -0.005946829533158267 -0.008932158604695964 29.77713349935373
+Solving linear variational problem.
+Solving linear variational problem.
+3.5 39.99820364547468 0.002701289693669464 -0.0009452242090610033 29.894699394558167
+Solving linear variational problem.
+Solving linear variational problem.
+5.5 39.96157463305773 -0.0012949596986083555 0.002799865567908519 29.926841075910772
+Solving linear variational problem.
+Solving linear variational problem.
+7.5 40.01609923837602 0.0003556610342770188 -3.448482791277666e-05 29.941867495042235
+Solving linear variational problem.
+Solving linear variational problem.
+9.5 39.96448900656049 0.000281480114680492 -0.0016341485125802484 29.950578810683172
+Solving linear variational problem.
+Solving linear variational problem.
+11.5 40.002068393589255 -0.0006410912883534619 0.00033243139920182974 29.95626228106483
+Solving linear variational problem.
+Solving linear variational problem.
+13.5 39.98288750633154 0.000747053917376188 0.0010906163569696693 29.96026554820133
+Solving linear variational problem.
+Solving linear variational problem.
+15.5 39.984012151395206 -0.000645327884608083 -0.0004637860219692347 29.963236284506664
+Solving linear variational problem.
+Solving linear variational problem.
+17.5 39.996732787496846 0.00040695758278060687 -0.0007504337002984239 29.965529113558148
+Solving linear variational problem.
+=>> PBS: job killed: walltime 2429 exceeded limit 2400
+aprun: Apid 743035: Caught signal Terminated, sending to application
+Application 743035 exit signals: Terminated
+Application 743035 resources: utime ~3413s, stime ~942s, Rss ~36250576, inblocks ~4020, outblocks ~112
