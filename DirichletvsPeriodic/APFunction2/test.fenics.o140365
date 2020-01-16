@@ -1,0 +1,65 @@
+Solving linear variational problem.
+Solving linear variational problem.
+1.5 3.878891389529385 3.8666524325204046 0.012238957008980478 0.07172911260671751
+Solving linear variational problem.
+Solving linear variational problem.
+3.5 3.8697212383811617 3.879209111465938 0.0094878730847765 0.0764516482359602
+Solving linear variational problem.
+Solving linear variational problem.
+5.5 3.868722484856908 3.891488787281123 0.022766302424214846 0.09215362610353034
+Solving linear variational problem.
+Solving linear variational problem.
+7.5 3.868836517963199 3.8977014470512974 0.028864929088098457 0.09980689647010609
+Solving linear variational problem.
+Solving linear variational problem.
+9.5 3.8683299717936803 3.899144480248389 0.0308145084547089 0.10089441857665193
+Solving linear variational problem.
+Solving linear variational problem.
+11.5 3.8676803831734228 3.8972083559849775 0.029527972811554726 0.098092629688237
+Solving linear variational problem.
+Solving linear variational problem.
+13.5 3.867025924635204 3.8938379782529395 0.026812053617735643 0.09395369701083799
+Solving linear variational problem.
+Solving linear variational problem.
+15.5 3.866362874892735 3.890413412660509 0.024050537767774216 0.08880406614793897
+Solving linear variational problem.
+Solving linear variational problem.
+17.5 3.865861855120563 3.8870102541491858 0.021148399028622755 0.08339441317677172
+Solving linear variational problem.
+Solving linear variational problem.
+19.5 3.8654939261060712 3.8839001010331122 0.018406174927040997 0.07845733706403261
+Solving linear variational problem.
+Solving linear variational problem.
+21.5 3.865175241718054 3.8813513243525413 0.016176082634487443 0.07356359119927539
+Solving linear variational problem.
+Solving linear variational problem.
+23.5 3.8649491567671443 3.8791143319021812 0.0141651751350369 0.06897092682121078
+Solving linear variational problem.
+Solving linear variational problem.
+25.5 3.8647829051473934 3.877157547444869 0.012374642297475535 0.06507760800083139
+Solving linear variational problem.
+Solving linear variational problem.
+27.5 3.864632125134709 3.8756012943465947 0.010969169211885621 0.06126328467629325
+Solving linear variational problem.
+Solving linear variational problem.
+29.5 3.864524793069881 3.874241684716082 0.009716891646200931 0.05776921236531792
+Solving linear variational problem.
+Solving linear variational problem.
+31.5 3.864441167751953 3.8730337498491574 0.008592582097204371 0.054892336900914704
+Solving linear variational problem.
+Solving linear variational problem.
+33.5 3.864360469524351 3.8720824398193554 0.007721970295004432 0.05197528485423834
+Solving linear variational problem.
+Solving linear variational problem.
+35.5 3.864302811460553 3.87123182357722 0.006929012116667188 0.04934336896756818
+Solving linear variational problem.
+Solving linear variational problem.
+37.5 3.864254283011557 3.8704567676165755 0.006202484605018377 0.04721519342019845
+Solving linear variational problem.
+Solving linear variational problem.
+39.5 3.864205612762719 3.869854670335383 0.005649057572663985 0.04493788684520438
+Solving linear variational problem.
+=>> PBS: job killed: walltime 2477 exceeded limit 2400
+aprun: Apid 753702: Caught signal Terminated, sending to application
+Application 753702 exit signals: Terminated
+Application 753702 resources: utime ~3525s, stime ~922s, Rss ~28954640, inblocks ~1520, outblocks ~0

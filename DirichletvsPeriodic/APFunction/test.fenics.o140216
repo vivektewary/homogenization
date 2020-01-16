@@ -1,0 +1,62 @@
+Solving linear variational problem.
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/ffc/uflacs/analysis/dependencies.py:61: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  active[targets] = 1
+Solving linear variational problem.
+1 3.918591906490701 3.906726075411427 0.01186583107927408 0.04849933531073068
+Solving linear variational problem.
+Solving linear variational problem.
+3 3.912291726728925 3.9066914868651472 0.005600239863777556 0.03405720221385471
+Solving linear variational problem.
+Solving linear variational problem.
+5 3.911143856169341 3.908444688646396 0.0026991675229446344 0.023583078482203666
+Solving linear variational problem.
+Solving linear variational problem.
+7 3.910755233765732 3.908837516304237 0.0019177174614952719 0.020008205151674736
+Solving linear variational problem.
+Solving linear variational problem.
+9 3.910556171877556 3.908737451477418 0.0018187204001378632 0.019455928554114047
+Solving linear variational problem.
+Solving linear variational problem.
+11 3.9102263846127454 3.909050820175596 0.00117556443714939 0.015576393169553839
+Solving linear variational problem.
+Solving linear variational problem.
+13 3.909832606305905 3.9087639856678726 0.0010686206380321472 0.014973303993503313
+Solving linear variational problem.
+Solving linear variational problem.
+15 3.9095252142327737 3.908441912029502 0.0010833022032716855 0.015032908808735987
+Solving linear variational problem.
+Solving linear variational problem.
+17 3.9092695615809157 3.9085262763203468 0.0007432852605688822 0.012395227921511287
+Solving linear variational problem.
+Solving linear variational problem.
+19 3.909049027991883 3.9082942104627163 0.0007548175291667292 0.012610174922387196
+Solving linear variational problem.
+Solving linear variational problem.
+21 3.908897885299433 3.908132353413249 0.00076553188618389 0.012643029514449365
+Solving linear variational problem.
+Solving linear variational problem.
+23 3.9087785894209053 3.9082377834160265 0.0005408060048788244 0.010582740341389873
+Solving linear variational problem.
+Solving linear variational problem.
+25 3.9086730618947843 3.9080828217725894 0.000590240122194885 0.011160501009340391
+Solving linear variational problem.
+Solving linear variational problem.
+27 3.9086023886785326 3.9080162987406553 0.0005860899378773432 0.011061729181742534
+Solving linear variational problem.
+Solving linear variational problem.
+29 3.908543580515677 3.908118649894934 0.00042493062074333565 0.009391680519824105
+Solving linear variational problem.
+Solving linear variational problem.
+31 3.9084873008662164 3.9079989716576944 0.0004883292085220425 0.01015264351327082
+Solving linear variational problem.
+Solving linear variational problem.
+33 3.9084505644919236 3.907980391865525 0.00047017262639847957 0.009904223439975662
+Solving linear variational problem.
+Solving linear variational problem.
+35 3.908417419530493 3.9080664042605053 0.00035101526998770893 0.008547885462549143
+Solving linear variational problem.
+=>> PBS: job killed: walltime 2428 exceeded limit 2400
+aprun: Apid 748589: Caught signal Terminated, sending to application
+Application 748589 exit signals: Terminated
+Application 748589 resources: utime ~3460s, stime ~881s, Rss ~23880248, inblocks ~3864, outblocks ~120

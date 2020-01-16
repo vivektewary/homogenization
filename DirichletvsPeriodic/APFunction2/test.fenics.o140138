@@ -1,0 +1,46 @@
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/ffc/uflacs/analysis/dependencies.py:61: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  active[targets] = 1
+Solving linear variational problem.
+Solving linear variational problem.
+1 3.885461457163121 3.869793703167288 0.015667753995832978 0.0636399649905514
+Solving linear variational problem.
+Solving linear variational problem.
+3 3.9014650236051858 3.895876359083709 0.005588664521476883 0.03834192742463574
+Solving linear variational problem.
+Solving linear variational problem.
+5 3.9055690666129035 3.902048282201445 0.003520784411458422 0.031097519295727495
+Solving linear variational problem.
+Solving linear variational problem.
+7 3.898213567418438 3.8960917987609944 0.0021217686574437344 0.0238498275965616
+Solving linear variational problem.
+Solving linear variational problem.
+9 3.8901268776867135 3.8882323441779856 0.0018945335087279247 0.02238926870920984
+Solving linear variational problem.
+Solving linear variational problem.
+11 3.8837640199465095 3.8820394248999506 0.0017245950465589743 0.021937387770381952
+Solving linear variational problem.
+Solving linear variational problem.
+13 3.87909956405179 3.877769279311212 0.0013302847405776141 0.019051816062155533
+Solving linear variational problem.
+Solving linear variational problem.
+15 3.8758202606286716 3.8746178516756333 0.0012024089530382476 0.017905270056128558
+Solving linear variational problem.
+Solving linear variational problem.
+17 3.87344520241393 3.8722855304744006 0.001159671939529261 0.01807374771437374
+Solving linear variational problem.
+Solving linear variational problem.
+19 3.8716595094422033 3.8707031105012364 0.0009563989409668849 0.01618209126786662
+Solving linear variational problem.
+Solving linear variational problem.
+21 3.8703400989960146 3.8694603309868647 0.000879768009149906 0.0153571513462211
+Solving linear variational problem.
+Solving linear variational problem.
+23 3.86932001551311 3.8684493691395407 0.0008706463735692616 0.01570262116373396
+Solving linear variational problem.
+Solving linear variational problem.
+25 3.868504489564077 3.8677664404327565 0.0007380491313204729 0.014200064410999596
+Solving linear variational problem.
+aprun: Apid 745633: Caught signal Terminated, sending to application
+Application 745633 exit signals: Terminated
+Application 745633 resources: utime ~627s, stime ~166s, Rss ~6232048, inblocks ~3830, outblocks ~112

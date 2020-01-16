@@ -1,0 +1,262 @@
+
+
+*******************************************************************************
+Sun Jul 21 18:34:31 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log($1)):(log($4))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 2899.67           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.22139
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00550786
+rel. change during last iteration : -2.12925e-09
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0114516
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000131139
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = -0.998141        +/- 0.001984     (0.1987%)
+b               = -1.23859         +/- 0.005908     (0.477%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.956  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:32:35 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log($1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 2.8385075982e+03   0.00e+00  2.22e+00    1.000000e+00   1.000000e+00
+   4 1.4775953841e-03  -3.16e-03  2.22e-04   -4.972696e-01  -2.661100e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : -3.16177e-08
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.6611          +/- 0.00306      (0.115%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.956  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:33:09 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log(2*$1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 5.2288971397e+00   0.00e+00  2.28e+00   -4.972696e-01  -2.661100e+00
+   4 1.4775953841e-03  -3.06e-07  2.28e-04   -4.972696e-01  -2.316419e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : -3.05509e-12
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.31642         +/- 0.003747     (0.1618%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:33:14 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log(2*$1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 1.4775953841e-03   0.00e+00  2.08e+00   -4.972696e-01  -2.316419e+00
+   1 1.4775953841e-03  -1.34e-09  2.08e-01   -4.972696e-01  -2.316419e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : -1.33545e-14
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.31642         +/- 0.003747     (0.1618%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:33:17 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log($1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 5.2288971397e+00   0.00e+00  1.94e+00   -4.972696e-01  -2.316419e+00
+   4 1.4775953841e-03  -6.18e-08  1.94e-04   -4.972696e-01  -2.661100e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : -6.1768e-13
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.6611          +/- 0.00306      (0.115%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.956  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:33:19 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log(2*$1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 5.2288971397e+00   0.00e+00  2.28e+00   -4.972696e-01  -2.661100e+00
+   4 1.4775953841e-03  -3.10e-07  2.28e-04   -4.972696e-01  -2.316419e+00
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : -3.10293e-12
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.31642         +/- 0.003747     (0.1618%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.971  1.000 
+
+
+*******************************************************************************
+Thu Jul 25 11:33:34 2019
+
+
+FIT:    data read from "DirichletvsPeriodicFunction2(100+R*R).dat" using (log(2*$1)):(log($5))
+        format = x:z
+        #datapoints = 44
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= m*x+c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   m             c            
+   0 1.4775953841e-03   0.00e+00  2.08e+00   -4.972696e-01  -2.316419e+00
+   1 1.4775953841e-03   0.00e+00  2.08e+01   -4.972696e-01  -2.316419e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.0014776
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 42
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00593134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.51808e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+m               = -0.49727         +/- 0.001027     (0.2066%)
+c               = -2.31642         +/- 0.003747     (0.1618%)
+
+correlation matrix of the fit parameters:
+                m      c      
+m               1.000 
+c              -0.971  1.000 

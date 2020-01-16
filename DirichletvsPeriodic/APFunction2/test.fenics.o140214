@@ -1,0 +1,59 @@
+Solving linear variational problem.
+Solving linear variational problem.
+1 3.880092648674371 3.86380440773815 0.016288240936221055 0.06502260988767804
+Solving linear variational problem.
+Solving linear variational problem.
+3 3.870044488432771 3.8637077739287062 0.006336714504064922 0.040994020607206146
+Solving linear variational problem.
+Solving linear variational problem.
+5 3.8679057076864125 3.8637163873362117 0.004189320350200809 0.03434005654303463
+Solving linear variational problem.
+Solving linear variational problem.
+7 3.8665422438432855 3.8638011229701155 0.002741120873170022 0.027584993238030358
+Solving linear variational problem.
+Solving linear variational problem.
+9 3.8660087175780236 3.8639279284860355 0.0020807890919880556 0.023559329947484896
+Solving linear variational problem.
+Solving linear variational problem.
+11 3.865727487647109 3.863859738749335 0.0018677488977738577 0.022961733518948677
+Solving linear variational problem.
+Solving linear variational problem.
+13 3.865456408840702 3.863977827265633 0.0014785815750690823 0.020246143334606042
+Solving linear variational problem.
+Solving linear variational problem.
+15 3.865336694631144 3.864087964805091 0.0012487298260528412 0.018278579597046287
+Solving linear variational problem.
+Solving linear variational problem.
+
+UMFPACK V5.7.6 (May 4, 2016): ERROR: out of memory
+
+Traceback (most recent call last):
+  File "DirichletvsPeriodicAP.py", line 84, in <module>
+    solve(a2 == L2, ss, bcs)#, solver_parameters={"linear_solver":"mumps"})
+  File "/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/dolfin/fem/solving.py", line 220, in solve
+    _solve_varproblem(*args, **kwargs)
+  File "/home/apps/anaconda3/5.2.0/lib/python3.6/site-packages/dolfin/fem/solving.py", line 247, in _solve_varproblem
+    solver.solve()
+RuntimeError: 
+
+*** -------------------------------------------------------------------------
+*** DOLFIN encountered an error. If you are not able to resolve this issue
+*** using the information listed below, you can ask for help at
+***
+***     fenics-support@googlegroups.com
+***
+*** Remember to include the error message listed below and, if possible,
+*** include a *minimal* running example to reproduce the error.
+***
+*** -------------------------------------------------------------------------
+*** Error:   Unable to successfully call PETSc function 'KSPSolve'.
+*** Reason:  PETSc error code is: 76 (Error in external library).
+*** Where:   This error was encountered inside /home/conda/feedstock_root/build_artifacts/fenics_1543534334359/work/dolfin/la/PETScKrylovSolver.cpp.
+*** Process: 0
+*** 
+*** DOLFIN version: 2018.1.0
+*** Git changeset:  
+*** -------------------------------------------------------------------------
+
+Application 748381 exit codes: 1
+Application 748381 resources: utime ~570s, stime ~11s, Rss ~2890588, inblocks ~1516, outblocks ~8
